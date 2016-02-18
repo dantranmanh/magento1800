@@ -1,0 +1,9 @@
+a:5:{i:0;s:223:"Error in file: "D:\localsites\htdocs\magento1800\app\code\local\Amasty\Xlanding\sql\amlanding_setup\mysql4-install-1.0.0.php" - SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'am_landing_page' already exists";i:1;s:1012:"#0 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\Resource\Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.8.3')
+#2 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\Resource\Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.8.3')
+#3 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 D:\localsites\htdocs\magento1800\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#6 D:\localsites\htdocs\magento1800\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#7 D:\localsites\htdocs\magento1800\index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:66:"/index.php/admin/cache/index/key/6c47a32320ffa1eda21b19cf1d0ab9db/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
